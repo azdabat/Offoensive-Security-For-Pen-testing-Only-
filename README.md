@@ -217,25 +217,3 @@ Isolated Environment: Always test in an isolated VM or lab environment. Do not c
 No Persistence / No Lateral Movement: This repository intentionally excludes any code that performs persistence or lateral movement. It is a simulation framework only.
 
 Responsible Disclosure: If you discover vulnerabilities while testing, follow your organization’s responsible disclosure policy.
-
-Support & Next Steps
-
-If you want help with any of the following, I can assist safely:
-
-Create a benign simulation harness that emits synthetic events compatible with your SIEM (JSON log lines you can ingest).
-
-Build sample detection queries (KQL / Sigma) that operate on the simulated logs to validate your rules.
-
-Draft incident playbooks and pivot queries for analysts to follow when simulated alerts fire.
-
-Convert the simulation logs into a small dataset for use in detection engineering pipelines or unit tests.
-
-To proceed, tell me which of the above you want (e.g., “generate KQL rules for simulated recon and persistence logs”), and I’ll produce safe, ready-to-use artifacts.
-
-Remember: this README is a defensive, educational resource. It intentionally avoids any operational instructions that could create or deploy real malicious capabilities. Use it to design reliable, legal, and safe detection testing workflows.
-
-
----
-
-If you want that pasted into a file in this session (e.g., saved to `/mnt/data/README.md`) or converted to a PDF, say the word and I’ll generate it for you (safe, read-only file creation only).
-::contentReference[oaicite:0]{index=0}
