@@ -240,9 +240,6 @@ Push to the branch
 
 Create a Pull Request
 
-License
-MIT License - See LICENSE file for details.
-
 Support
 For issues and questions:
 
